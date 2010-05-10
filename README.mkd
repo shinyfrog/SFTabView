@@ -1,0 +1,8 @@
+# SFTabView
+SFTabView is a fully customizable Cocoa Tab view. 
+SFTabView is released under BSD license.
+
+SFTabView is developed by [Shiny Frog](http://www.shinyfrog.net "Shiny Frog homepage.")
+
+
+
