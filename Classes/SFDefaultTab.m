@@ -26,30 +26,30 @@ static CGImageRef  inactiveTab;
     [self setLayoutManager:layout];
 
     _representedObject = representedObject;
-    self.frame = CGRectMake(0, 0, 120, 30);
-        //NSLog(@"asd -> %@", [[NSBundle mainBundle] pathForResource:@"tabActive" ofType:@"png"]);
-        if(!activeTab) {
-            CFStringRef path = (CFStringRef)[[NSBundle mainBundle] pathForResource:@"activeTab" ofType:@"png"];
-            CFURLRef imageURL = CFURLCreateWithFileSystemPath(nil, path, kCFURLPOSIXPathStyle, NO);
-            CGImageSourceRef imageSource = CGImageSourceCreateWithURL(imageURL, nil);
-            activeTab = CGImageSourceCreateImageAtIndex(imageSource, 0, nil);
-                         CFRelease(imageURL); CFRelease(imageSource);
+    self.frame = CGRectMake(0, 0, 125, 28);
+	if(!activeTab) {
+		CFStringRef path = (CFStringRef)[[NSBundle mainBundle] pathForResource:@"activeTab" ofType:@"png"];
+		CFURLRef imageURL = CFURLCreateWithFileSystemPath(nil, path, kCFURLPOSIXPathStyle, NO);
+		CGImageSourceRef imageSource = CGImageSourceCreateWithURL(imageURL, nil);
+		activeTab = CGImageSourceCreateImageAtIndex(imageSource, 0, nil);
+		CFRelease(imageURL); CFRelease(imageSource);
 
-            
-             path = (CFStringRef)[[NSBundle mainBundle] pathForResource:@"inactiveTab" ofType:@"png"];
-             imageURL = CFURLCreateWithFileSystemPath(nil, path, kCFURLPOSIXPathStyle, NO);
-             imageSource = CGImageSourceCreateWithURL(imageURL, nil);
-            inactiveTab = CGImageSourceCreateImageAtIndex(imageSource, 0, nil);
-             CFRelease(imageURL); CFRelease(imageSource);
-
-        }
-        [self setContents: (id)inactiveTab];
+		
+		path = (CFStringRef)[[NSBundle mainBundle] pathForResource:@"inactiveTab" ofType:@"png"];
+		imageURL = CFURLCreateWithFileSystemPath(nil, path, kCFURLPOSIXPathStyle, NO);
+		imageSource = CGImageSourceCreateWithURL(imageURL, nil);
+		inactiveTab = CGImageSourceCreateImageAtIndex(imageSource, 0, nil);
+		CFRelease(imageURL); CFRelease(imageSource);
+	}
+	
+	[self setContents: (id)inactiveTab];
 
     SFLabelLayer *tabLabel = [SFLabelLayer layer];
+	
 	if ([representedObject objectForKey:@"name"] != nil) {
 		tabLabel.string = [representedObject objectForKey:@"name"];
-
 	}
+	
 	[tabLabel setFontSize:13.0f];
 	[tabLabel setShadowOpacity:.9f];
 	tabLabel.shadowOffset = CGSizeMake(0, -1);
@@ -66,7 +66,7 @@ static CGImageRef  inactiveTab;
     constraint = [CAConstraint constraintWithAttribute:kCAConstraintMidY
                                             relativeTo:@"superlayer"
                                              attribute:kCAConstraintMidY
-												offset:-4.0];
+												offset:-2.0];
     [tabLabel addConstraint:constraint];
 
 	constraint = [CAConstraint constraintWithAttribute:kCAConstraintMaxX
@@ -86,13 +86,7 @@ static CGImageRef  inactiveTab;
 	
 	[self addSublayer:tabLabel];
 
-    
-
-    //self.borderColor = CGColorCreateGenericRGB(0,0,0, 1);
-    //self.borderWidth = 1.0;
-	//self.backgroundColor = CGColorCreateGenericRGB(0,0,0, 1);
 }
-
 
 - (void) setSelected: (BOOL) selected {
     [CATransaction begin]; 

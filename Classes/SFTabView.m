@@ -435,6 +435,11 @@
 #pragma mark Selecting a Tab
 
 - (void) selectTab: (CALayer *) tab {
+	
+	if (![arrangedTabs containsObject:tab]) {
+		return;
+	}
+	
     if ([delegate respondsToSelector:@selector(tabView:willSelectTab:)]) {
         [delegate tabView:self willSelectTab:tab];
     }

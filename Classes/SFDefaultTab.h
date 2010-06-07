@@ -8,17 +8,18 @@
 
 #import <Cocoa/Cocoa.h>
 #import <QuartzCore/QuartzCore.h>
+#import "SFTabView.h"
 
-@interface SFLabelLayer : CATextLayer
-{
-	
-}
-
+@interface SFLabelLayer : CATextLayer {}
 @end
 
 
 @interface SFDefaultTab : CALayer {
     id _representedObject;
 }
+
+- (void) setRepresentedObject: (id) representedObject;
+- (void) setSelected: (BOOL) selected;
+
 
 @end

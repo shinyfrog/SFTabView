@@ -14,7 +14,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	tabView.delegate = self;
-    tabView.tabOffset = -20;
+    tabView.tabOffset = -15;
     tabView.startingOffset = 20;
 	
     [tabView addTabWithRepresentedObject:[NSDictionary dictionaryWithObject:@"One" forKey:@"name"]];

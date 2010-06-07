@@ -7,34 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CB2671F11984D0300003C49 /* SFDefaultTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB2671C11984D0300003C49 /* SFDefaultTab.m */; };
-		0CB2672011984D0300003C49 /* SFTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB2671E11984D0300003C49 /* SFTabView.m */; };
-		0CB2672511984D3300003C49 /* activeTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB2672211984D3300003C49 /* activeTab.png */; };
-		0CB2672611984D3300003C49 /* inactiveTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB2672311984D3300003C49 /* inactiveTab.png */; };
-		0CB2672711984D3300003C49 /* tabBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB2672411984D3300003C49 /* tabBg.png */; };
+		0C5CBCF611BD52BA00448ADD /* SFDefaultTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5CBCF111BD52BA00448ADD /* SFDefaultTab.m */; };
+		0C5CBCF711BD52BA00448ADD /* SFTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5CBCF311BD52BA00448ADD /* SFTabView.m */; };
+		0C5CBCF811BD52BA00448ADD /* SFTabViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5CBCF511BD52BA00448ADD /* SFTabViewAppDelegate.m */; };
+		0C5CBCFF11BD534200448ADD /* activeTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C5CBCFB11BD534200448ADD /* activeTab.png */; };
+		0C5CBD0011BD534200448ADD /* inactiveTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C5CBCFC11BD534200448ADD /* inactiveTab.png */; };
+		0C5CBD0111BD534200448ADD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C5CBCFD11BD534200448ADD /* MainMenu.xib */; };
+		0C5CBD0211BD534200448ADD /* tabBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C5CBCFE11BD534200448ADD /* tabBg.png */; };
+		0C5CBD1311BD537700448ADD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C5CBD1111BD537700448ADD /* InfoPlist.strings */; };
 		0CB2673E11984E3100003C49 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB2673D11984E3100003C49 /* QuartzCore.framework */; };
-		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
-		256AC3DA0F4B6AC300CF3369 /* SFTabViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* SFTabViewAppDelegate.m */; };
-		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0CB2671B11984D0300003C49 /* SFDefaultTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFDefaultTab.h; sourceTree = "<group>"; };
-		0CB2671C11984D0300003C49 /* SFDefaultTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFDefaultTab.m; sourceTree = "<group>"; };
-		0CB2671D11984D0300003C49 /* SFTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTabView.h; sourceTree = "<group>"; };
-		0CB2671E11984D0300003C49 /* SFTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTabView.m; sourceTree = "<group>"; };
-		0CB2672211984D3300003C49 /* activeTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = activeTab.png; sourceTree = "<group>"; };
-		0CB2672311984D3300003C49 /* inactiveTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inactiveTab.png; sourceTree = "<group>"; };
-		0CB2672411984D3300003C49 /* tabBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBg.png; sourceTree = "<group>"; };
+		0C5CBCF011BD52BA00448ADD /* SFDefaultTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFDefaultTab.h; path = Classes/SFDefaultTab.h; sourceTree = "<group>"; };
+		0C5CBCF111BD52BA00448ADD /* SFDefaultTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFDefaultTab.m; path = Classes/SFDefaultTab.m; sourceTree = "<group>"; };
+		0C5CBCF211BD52BA00448ADD /* SFTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFTabView.h; path = Classes/SFTabView.h; sourceTree = "<group>"; };
+		0C5CBCF311BD52BA00448ADD /* SFTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFTabView.m; path = Classes/SFTabView.m; sourceTree = "<group>"; };
+		0C5CBCF411BD52BA00448ADD /* SFTabViewAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFTabViewAppDelegate.h; path = Classes/SFTabViewAppDelegate.h; sourceTree = "<group>"; };
+		0C5CBCF511BD52BA00448ADD /* SFTabViewAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFTabViewAppDelegate.m; path = Classes/SFTabViewAppDelegate.m; sourceTree = "<group>"; };
+		0C5CBCFB11BD534200448ADD /* activeTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = activeTab.png; path = Resources/activeTab.png; sourceTree = "<group>"; };
+		0C5CBCFC11BD534200448ADD /* inactiveTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = inactiveTab.png; path = Resources/inactiveTab.png; sourceTree = "<group>"; };
+		0C5CBCFD11BD534200448ADD /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainMenu.xib; path = Resources/MainMenu.xib; sourceTree = "<group>"; };
+		0C5CBCFE11BD534200448ADD /* tabBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabBg.png; path = Resources/tabBg.png; sourceTree = "<group>"; };
+		0C5CBD1211BD537700448ADD /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = Resources/English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0CB2673D11984E3100003C49 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
-		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		256AC3D80F4B6AC300CF3369 /* SFTabViewAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTabViewAppDelegate.h; sourceTree = "<group>"; };
-		256AC3D90F4B6AC300CF3369 /* SFTabViewAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTabViewAppDelegate.m; sourceTree = "<group>"; };
 		256AC3F00F4B6AF500CF3369 /* SFTabView_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTabView_Prefix.pch; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
@@ -59,29 +59,30 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				256AC3D80F4B6AC300CF3369 /* SFTabViewAppDelegate.h */,
-				256AC3D90F4B6AC300CF3369 /* SFTabViewAppDelegate.m */,
+				0C5CBD1711BD545E00448ADD /* SFTabView */,
+				0C5CBCF411BD52BA00448ADD /* SFTabViewAppDelegate.h */,
+				0C5CBCF511BD52BA00448ADD /* SFTabViewAppDelegate.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
 		};
-		0CB2671411984CEE00003C49 /* TabView */ = {
+		0C5CBD1711BD545E00448ADD /* SFTabView */ = {
 			isa = PBXGroup;
 			children = (
-				0CB2671B11984D0300003C49 /* SFDefaultTab.h */,
-				0CB2671C11984D0300003C49 /* SFDefaultTab.m */,
-				0CB2671D11984D0300003C49 /* SFTabView.h */,
-				0CB2671E11984D0300003C49 /* SFTabView.m */,
+				0C5CBCF011BD52BA00448ADD /* SFDefaultTab.h */,
+				0C5CBCF111BD52BA00448ADD /* SFDefaultTab.m */,
+				0C5CBCF211BD52BA00448ADD /* SFTabView.h */,
+				0C5CBCF311BD52BA00448ADD /* SFTabView.m */,
 			);
-			name = TabView;
+			name = SFTabView;
 			sourceTree = "<group>";
 		};
 		0CB2672111984D2800003C49 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				0CB2672211984D3300003C49 /* activeTab.png */,
-				0CB2672311984D3300003C49 /* inactiveTab.png */,
-				0CB2672411984D3300003C49 /* tabBg.png */,
+				0C5CBCFB11BD534200448ADD /* activeTab.png */,
+				0C5CBCFC11BD534200448ADD /* inactiveTab.png */,
+				0C5CBCFE11BD534200448ADD /* tabBg.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -116,10 +117,9 @@
 		29B97314FDCFA39411CA2CEA /* SFTabView */ = {
 			isa = PBXGroup;
 			children = (
-				0CB2671411984CEE00003C49 /* TabView */,
 				080E96DDFE201D6D7F000001 /* Classes */,
-				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -138,10 +138,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0C5CBCFD11BD534200448ADD /* MainMenu.xib */,
 				0CB2672111984D2800003C49 /* Images */,
 				8D1107310486CEB800E47090 /* SFTabView-Info.plist */,
-				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
-				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				0C5CBD1111BD537700448ADD /* InfoPlist.strings */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -198,11 +198,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
-				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
-				0CB2672511984D3300003C49 /* activeTab.png in Resources */,
-				0CB2672611984D3300003C49 /* inactiveTab.png in Resources */,
-				0CB2672711984D3300003C49 /* tabBg.png in Resources */,
+				0C5CBCFF11BD534200448ADD /* activeTab.png in Resources */,
+				0C5CBD0011BD534200448ADD /* inactiveTab.png in Resources */,
+				0C5CBD0111BD534200448ADD /* MainMenu.xib in Resources */,
+				0C5CBD0211BD534200448ADD /* tabBg.png in Resources */,
+				0C5CBD1311BD537700448ADD /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,29 +214,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
-				256AC3DA0F4B6AC300CF3369 /* SFTabViewAppDelegate.m in Sources */,
-				0CB2671F11984D0300003C49 /* SFDefaultTab.m in Sources */,
-				0CB2672011984D0300003C49 /* SFTabView.m in Sources */,
+				0C5CBCF611BD52BA00448ADD /* SFDefaultTab.m in Sources */,
+				0C5CBCF711BD52BA00448ADD /* SFTabView.m in Sources */,
+				0C5CBCF811BD52BA00448ADD /* SFTabViewAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+		0C5CBD1111BD537700448ADD /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C165DFE840E0CC02AAC07 /* English */,
+				0C5CBD1211BD537700448ADD /* English */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1DDD58150DA1D0A300B32029 /* English */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
